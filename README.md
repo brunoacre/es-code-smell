@@ -1,4 +1,4 @@
-Este projeto simples de cálculo de frete contém um "Code Smell" que viola um princípio fundamental do SOLID.
+Este projeto simples de cálculo de frete contém um "Code Smell" que viola um princípio de aberto/fechado.
 
 1. O Problema
 

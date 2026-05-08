@@ -1,7 +1,9 @@
 from pedido import Pedido
 
 def main():
-    print("Executando Versão Inicial\n---------------------------")
+    print("*" * 30)
+    print("Executando Versão Inicial")
+    print("*" * 30)
     
     pedido = Pedido(peso_kg=2.5)
 
@@ -16,6 +18,10 @@ def main():
     
     frete_motoboy = pedido.calcular_frete("MOTOBOY")
     print(f"Valor do frete MOTOBOY: R$ {frete_motoboy:.2f}") 
+
+    pedido2 = Pedido(peso_kg=10.0)
+    frete_pac = pedido.calcular_frete("PAC")
+    print(f"Valor do frete PAC: R$ {frete_pac:.2f}") 
 
 #ponto de entrada para execução
 if __name__ == "__main__":

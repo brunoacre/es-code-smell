@@ -1,5 +1,5 @@
-#Representa um pedido no e-commerce.
-#Contém a lógica de cálculo de frete (que precisa ser refatorada).
+#Representa um pedido em um sistema de comércio eletrônico.
+#Lógica de cálculo de frete (precisa ser refatorada).
 
 class Pedido:    
 
